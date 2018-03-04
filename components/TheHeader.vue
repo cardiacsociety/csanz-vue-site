@@ -9,7 +9,7 @@
   import NavBar from '~/components/NavBar'
 
   export default {
-    name: "header",
+    name: "the-header",
 
     components: {
       NavBar,
