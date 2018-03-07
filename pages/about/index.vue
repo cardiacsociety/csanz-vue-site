@@ -3,8 +3,8 @@
     <PageHeader
       title="About"
       subtitle="General Information and Resources"
+      :subnav="$store.state.nav.about"
     />
-    <SubNav/>
     <PageSection>
       <p>
         The Cardiac Society of Australia and New Zealand is the professional body for cardiologists and those
@@ -24,18 +24,7 @@
 </template>
 
 <script>
-  import SubNav from "~/components/SubNavAbout"
-
-  export default {
-    name: "about-index",
-
-    components: {
-      SubNav,
-    },
-
-  }
 </script>
 
 <style scoped>
-
 </style>

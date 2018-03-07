@@ -4,7 +4,7 @@
 <script>
   export default {
     beforeMount() {
-      this.$router.push("/about/people/board")
+      this.$router.push("/about/groups/committees")
     }
   }
 </script>

@@ -1,12 +1,12 @@
 <template>
   <div>
     <PageHeader
-      title="CSANZ Constitution"
+      title="CSANZ History"
       subtitle=""
+      :subnav="$store.state.nav.about"
     />
-    <SubNav/>
     <PageSection>
-      <h3 class="title is-3">Constitution</h3>
+      <h3 class="title is-3">History</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eius totam voluptatum! Amet asperiores at
         cupiditate debitis dolores error, est facilis fuga fugiat incidunt maxime numquam officiis quidem totam
         voluptas.</p>
@@ -59,23 +59,12 @@
       <p>Distinctio eaque earum, iste itaque maiores non odio omnis porro possimus quidem reiciendis repellendus
         similique, soluta. Aut debitis deleniti eaque in, ipsa molestias neque officiis placeat quo, sit veniam
         voluptas.</p>
-
     </PageSection>
   </div>
 </template>
 
 <script>
-  import SubNav from "~/components/SubNavAbout"
-
-  export default {
-    name: "constitution",
-
-    components: {
-      SubNav,
-    },
-  }
 </script>
 
 <style scoped>
-
 </style>
